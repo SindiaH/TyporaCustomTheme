@@ -1,0 +1,31 @@
+/* #wacMsccBanner {
+    display: none !important;
+}
+
+#AppHeaderPanel, #AppHeaderPanel + div {
+    top: 0px !important;
+} */
+
+/* two items */
+th:first-child:nth-last-child(2),
+th:first-child:nth-last-child(2) ~ th {
+    width: 50%;
+}
+
+/* three items */
+th:first-child:nth-last-child(3),
+th:first-child:nth-last-child(3) ~ th {
+    width: 33.3333%;
+}
+
+/* four items */
+th:first-child:nth-last-child(4),
+th:first-child:nth-last-child(4) ~ th {
+    width: 25%;
+}
+
+/* fife items */
+th:first-child:nth-last-child(5),
+th:first-child:nth-last-child(5) ~ th {
+    width: 20%;
+}
